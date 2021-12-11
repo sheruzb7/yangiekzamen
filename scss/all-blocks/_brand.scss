@@ -1,0 +1,251 @@
+.section2{
+   width: 100%;
+   height: 460px;
+   background-color: #1B262F;
+   position: relative;
+   /*&::after{
+      content: "";
+      background-image: url(../img/circle.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 780px;
+      height: 780px;
+      position: absolute;
+      left: -235px;
+      bottom: 51px;
+
+      background: #36536B;
+   }*/
+   .brand{
+      display: flex;
+      &__text{
+         width: 40%;
+         margin-top: 50px;
+         margin-left: 50px;
+         &__title{
+            font-family: DM Serif Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            line-height: 56px;
+            color: white;
+         }
+         &__desc{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 28px;
+            color: white;
+         }
+         &__button{
+            width: 120px;
+            height: 40px;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 20px;
+            color: white;
+            margin-top: 20px;
+            &:active{
+               cursor: pointer;
+               background-color: white;
+               color: #1B262F;
+            }
+            
+         }
+      }
+      &__logo{
+         margin-left: auto;
+         margin-top: 150px;
+         margin-right: 70px;
+         &__one{
+            width: 100%;
+            margin-bottom: 30px;
+         }
+         &__two{
+            width: 100%;
+         }
+      }
+      
+   }
+}
+@media only screen and (min-width: 513px) and (max-width: 768px) {
+   .section2{
+      width: 100%;
+      height: 460px;
+      background-color: #1B262F;
+      position: relative;
+      /*&::after{
+         content: "";
+         background-image: url(../img/circle.png);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         width: 780px;
+         height: 780px;
+         position: absolute;
+         left: -235px;
+         bottom: 51px;
+   
+         background: #36536B;
+      }*/
+      .brand{
+         display: flex;
+         flex-direction: column-reverse;
+         align-items: center;
+         &__text{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 70px;
+            
+            &__title{
+               font-family: DM Serif Display;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 20px;
+               line-height: 20px;
+               color: white;
+               
+            }
+            &__desc{
+               font-family: Public Sans;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 15px;
+               line-height: 28px;
+               color: white;
+               text-align: center;
+            }
+            &__button{
+               width: 100px;
+               height: 30px;
+               background-color: transparent;
+               border: 1px solid white;
+               border-radius: 20px;
+               color: white;
+               margin-top: 20px;
+               &:active{
+                  cursor: pointer;
+                  background-color: white;
+                  color: #1B262F;
+               }
+               
+            }
+         }
+         &__logo{
+            margin: 0%;
+            margin-top: 30px;
+            &__one{
+               width: 100%;
+               margin-bottom: 30px;
+            }
+            &__two{
+               width: 100%;
+            }
+         }
+         
+      }
+   }
+   
+}
+@media only screen and (max-width: 512px) {
+   .section2{
+      width: 100%;
+      height: 460px;
+      background-color: #1B262F;
+      position: relative;
+      /*&::after{
+         content: "";
+         background-image: url(../img/circle.png);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         width: 780px;
+         height: 780px;
+         position: absolute;
+         left: -235px;
+         bottom: 51px;
+   
+         background: #36536B;
+      }*/
+      .brand{
+         display: flex;
+         flex-direction: column-reverse;
+         align-items: center;
+         &__text{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 70px;
+            
+            &__title{
+               font-family: DM Serif Display;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 20px;
+               line-height: 20px;
+               color: white;
+               
+            }
+            &__desc{
+               font-family: Public Sans;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 15px;
+               line-height: 28px;
+               color: white;
+               text-align: center;
+            }
+            &__button{
+               width: 100px;
+               height: 30px;
+               background-color: transparent;
+               border: 1px solid white;
+               border-radius: 20px;
+               color: white;
+               margin-top: 10px;
+               &:active{
+                  cursor: pointer;
+                  background-color: white;
+                  color: #1B262F;
+               }
+               
+            }
+         }
+         &__logo{
+            display: flex;
+            margin: 0%;
+            margin-top: 30px;
+            &__one{
+               display: flex;
+               flex-direction: column;
+               width: 100%;
+               
+               &>a{
+                  &>img{
+                     padding: 5px 0;
+                     padding-bottom:0 ;
+                  }
+               }
+            }
+            &__two{
+               display: flex;
+               flex-direction: column;
+               width: 100%;
+               &>a{
+                  &>img{
+                     padding: 5px 0;
+                     padding-bottom:0 ;
+                  }
+               }
+            }
+         }
+         
+      }
+   }
+   
+}
+   

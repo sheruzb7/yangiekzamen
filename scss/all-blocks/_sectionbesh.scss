@@ -1,0 +1,109 @@
+.sectionbesh{
+   width: 100%;
+   height: 315px;
+   display: flex;
+   &__text{
+
+      width: calc(100%/3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__title{
+         font-family: Public Sans;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 18px;
+         line-height: 25px;
+         color: #36536B;
+      }
+      &__desc{
+         font-family: Public Sans;
+         font-style: normal;
+         font-weight: normal;  
+         font-size: 15px;
+         line-height: 25px;
+         text-align: center;
+         color: #6C8294;
+      }
+   }
+}
+@media only screen and (min-width: 513px) and (max-width: 768px) {
+   .sectionbesh{
+      width: 100%;
+      height: 315px;
+      display: flex;
+      &__text{
+   
+         width: 30%;
+         min-width: 30%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-left: 20px;
+         
+         
+         &__title{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            color: #36536B;
+            text-align: center;
+         }
+         &__desc{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: normal;  
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #6C8294;
+         }
+      }
+   }
+
+}
+@media only screen and (max-width: 512px){
+   .sectionbesh{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      
+      &__text{
+         flex-direction: column;
+   
+         width: 30%;
+         min-width: 30%;
+         height: 50px;
+         display: flex;
+         
+         align-items: center;
+         justify-content: space-between;
+         margin-left: 20px;
+         padding: 10px 0;
+         
+         
+         &__title{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 15px;
+            color: #36536B;
+            text-align: center;
+         }
+         &__desc{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: normal;  
+            font-size: 10px;
+            line-height: 10px;
+            text-align: center;
+            color: #6C8294;
+         }
+      }
+   }
+
+}
+

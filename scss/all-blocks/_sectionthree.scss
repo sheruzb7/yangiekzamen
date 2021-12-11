@@ -1,0 +1,110 @@
+.sectionthree{
+   display: flex;
+   &__img{
+      display: flex;
+      width: 50%;
+      margin: 0;
+      padding: 0;
+   }
+   &__text{
+      width: 40%;
+      margin-top: 50px;
+      &__title{
+         font-family: DM Serif Display;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 48px;
+         line-height: 56px;
+         color: #36536B;
+      }
+      &__desc{
+         font-family: Public Sans;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 15px;
+         line-height: 28px;
+         color: #6C8294;
+      }
+   }
+}
+@media only screen and (min-width: 513px) and (max-width: 768px) {
+   .sectionthree{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &__img{
+         display: flex;
+         margin: 0;
+         padding: 0;
+      }
+      &__text{
+         width: 100%;
+         margin: 0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         &__title{
+            font-family: DM Serif Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 30px;
+            color: #36536B;
+         }
+         &__desc{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 15px;
+            color: #6C8294;
+            text-align: center;
+         }
+      }
+   }
+
+
+}
+@media only screen and (max-width: 512px) {
+   .sectionthree{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &__img{
+         display: flex;
+         margin: 0;
+         padding: 0;
+      }
+      &__text{
+         width: 100%;
+         margin: 0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         &__title{
+            font-family: DM Serif Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 30px;
+            color: #36536B;
+         }
+         &__desc{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 15px;
+            color: #6C8294;
+            text-align: center;
+         }
+      }
+   }
+
+
+}
+   
